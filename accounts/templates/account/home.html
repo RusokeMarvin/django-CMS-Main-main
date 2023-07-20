@@ -1,0 +1,124 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Poppins:400,500,600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2dda32da93.js" crossorigin="anonymous"></script>
+    <link rel='stylesheet' href="{% static 'accounts/css/home.css' %}">
+    <title>CHS FELLOWSHIP</title>
+</head>
+<body>
+    <div id="bi">
+        <div id= "nav">
+            <img class= "img4" src="{% static 'accounts/images/marvin.jpg' %}"/>
+        <div class="menu">
+            <a class= "menu-item" href="{% url 'post' %}">Posts</a>
+            <a class= "menu-item" href="{% url 'login' %}">Sign in</a>
+            <a href="{% url 'signup' %}"><button class= "primary-button" style="background-color: #0078b4;">Get Started</button></a>
+        </div>
+        </div>
+        <div id= "landing-section">
+            <div class= "land" style="margin-top: 140px;">
+            <h1 style="font-size: 45px; letter-spacing: 2px; color: red; font-weight: 500;"><b>COLLEGE OF HEALTH SCIENCES CHRISTIAN FELLOWSHIP</b><p style="color: #0078b4; margin-bottom: 0px; font-size: 60px; margin-top: 30px;"> Welcomes You All</p></h1>
+            <p class= "pera" style="color: #0078b4; font-size: 20px; font-weight: 900;"> <b><i><span style='color: red;'>"These i will bring to my holy mountain and give them</span> joy in my house of prayer.Their burnt offerings and sacrifices will be accepted on my alter; for my house will be called a house of prayer for all nations"</i></b></p>
+        </div>
+        </div>
+        </div>
+        <div id= "cards">
+            <div id= "card" class= "card1">
+                <i class="fa fa-lightbulb-o icon"></i>
+                <h2>Inspirational</h2>
+                <p>Post your blog relating to a particular subject, art, or craft, or its techniques involving or concerned with applied and industrial sciences. it may refer to Technical vehicles ,analysis drawing,support and Technical education</p>
+            </div>
+            <div id= "card" class= "card2">
+                <i class="far fa-smile icon"></i>
+                <h2>Empowerment</h2>
+                <p>Post your blog relating to the government or public affairs of a country.In modern nation states, people often form political parties to represent their ideas. Members of a party often agree to take the same position on many issues </p>
+            </div>
+            <div id= "card" class= "card3">
+                <i class="fa fa-graduation-cap icon"></i>
+                <h2>Educational</h2>
+                <p>Post your blogs relating the education. Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, beliefs, and habits. Educational methods include teaching, discussion and directed research.</p>
+            </div>
+            <div id= "card" class= "card4">
+                <i class="fa fa-meh-o icon"></i>
+                <h2>Spiritual</h2>
+                <p>Post your blog relating to your Health. The state of being free from illness or injury. A person's mental or physical condition used to express friendly feelings towards one's companions before drinking.</p>
+            </div>
+        </div>
+            <div id= page3>
+                <div id= "page3i">
+                    <h3>CHS FELLOWSHIP</h3>
+                    <h2>Our Main Goals</h2>
+                    <p>We aim at extending the Gospel of the LORD to everyone regardless of background, status because we are one in Christ</p>
+                </div>
+                <div class= "cardp3">
+                    <div class= icon-wrapper>
+                        <i class="fa fa-camera icon2"></i>
+                    </div>
+                    <div>
+                        <h4 class= "fresh">Build Your Faith</h4>
+                        <p class= "use">Daily verses from us will enhance your faith and make you stronger in christ</p>
+                    </div>
+                </div>
+                <div class= "cardp3">
+                <div class= icon-wrapper>
+                    <i class="fa-rocket fa icon2"></i>
+                </div>
+                <div>
+                    <h4 class= "fresh">Motivate the Hopeless</h4>
+                    <p class= "use">Motivation and encouragemnt of those who have lost hope</p>
+                </div>
+                </div>
+                <div class= "cardp3">
+                    <div class= icon-wrapper>
+                        <i class="fab fa-twitter icon2"></i>
+                    </div>
+                    <div>
+                        <h4 class= "fresh">Fetch Souls</h4>
+                        <p class= "use">Our mission is draw more people towards God and show them the light</p>
+                    </div>
+                </div>
+                <div class= "cardp3">
+                    <div class= icon-wrapper>
+                         <i class="fab fa-weixin icon2"></i>
+                    </div>
+                    <div>
+                        <h4 class= "fresh">Inspire</h4>
+                        <p class= "use"> To inspire others and encourage them </p>
+                    </div>
+                </div>
+            </div>
+            <div id= page4>
+                <div id= "page4i">
+                    <h3>CHS FELLOWSHIP</h3>
+                    <h2>Authors</h2>
+                    <p>According to experts, any habit can be formed in 21 days. The same statement applies to habit of Reading the.</p>
+               </div>
+               <div id= "card4">
+                   <div class= "card4i">
+                      
+                      <img class= "img4" src="{% static 'accounts/images/icon1.jpg' %}"/>
+                      <p>Hello everyone, am here to share the word of God and also deliver inspirational talks to everyone in need of them. May God bless you</p>
+                      <h3>SEBUNYA RODNEY</h3>
+                      <h4>Author</h4>    
+                  </div>
+                   <div id= "ht" class= "card4i">
+                    <img class= "img4" src="{% static 'accounts/images/icon2.jpg' %}"/>
+                       <p> Hello everyone, am here to share the word of God and also deliver inspirational talks to everyone in need of them. May God bless you</p>
+                       <h3>SEBUNYA RODNEY</h3>
+                       <h4>Author</h4>    
+                   </div>
+                   <div class= "card4i">
+                    <img class= "img4" src="{% static 'accounts/images/icon3.jpg' %}"/>
+                      <p>Hello everyone, am here to share the word of God and also deliver inspirational talks to everyone in need of them. May God bless you</p>
+                      <h3>SEBUNYA RODNEY</h3>
+                      <h4>Author</h4>    
+                   </div>
+               </div>
+            </div>
+</body>
+</html>
