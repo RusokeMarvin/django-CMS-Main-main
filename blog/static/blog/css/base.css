@@ -111,3 +111,7 @@ body{
 #margi{
     margin-top: 0px;
 }
+
+#nav .menu{
+    width: 100%;
+}

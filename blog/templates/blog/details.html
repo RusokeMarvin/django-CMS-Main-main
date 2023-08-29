@@ -8,7 +8,7 @@
 {% block content %}
     <div class= "main">
         <div id = "cards">
-            <div class= "card" style="position: static;">
+            <div class= "card" style="position: static; width: 50%; height: 100%;">
                 {% if posts.image %}   
                     <img class= "cardimg" src= "{{ posts.image.url }}"/>
                 {% else %}
@@ -16,7 +16,7 @@
                 {% endif %}
                 <div class = "cardcontent">
                     <h3 class= "title">{{ posts.title }}</h3>
-                    <p class= "author">{{posts.author}}<span class= "date">| {{ posts.date }}</span><span style="margin-left:300px; font-size: 12px;"><a href="{% url 'edit-post' posts.slug %}">EDIT POST</a></span></p>
+                    <p class= "author">{{posts.author}}<span class= "date">| {{ posts.date }}</span><span style="margin-left:300px; font-size: 12px;"><a href="{% url 'edit-post' posts.slug %}"><p>EDIT POST</p></a></span></p>
                     <p class= "content">{{ posts.content|safe }}</p>    
                 </div>
             </div>

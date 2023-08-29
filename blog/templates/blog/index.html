@@ -52,7 +52,7 @@
             </br>
     <div id = "cards">
         {% for post in posts %}
-            <div class= "card">
+            <div style="width: 50%; height: 50%;" class= "card">
                 <a class= "link" href= "{{ post.get_absolute_url }}">
                 {% if post.image %}   
                     <img class= "cardimg" src= "{{ post.image.url }}"/>
@@ -60,7 +60,7 @@
                     <img class= "cardimg" src= "http://127.0.0.1:8000/media/blog/post/WhatsApp_Image_2019-06-19_at_17.55.10.jpeg"/>
                 {% endif %}
                 <div class = "cardcontent">
-                    <h3 class= "title">{{post.title|truncatechars:20}}</h3>
+                    <h3 style="color: red;" class= "title">{{post.title|truncatechars:20}}</h3>
                     <p class= "author">{{post.author}}<span class= "date">   |{{ post.date }}</span></p>
                     <p class= "cont">For more details about "{{post.title}}" post click to card we will redirect  you to deatils page of post....  </p>
                 </div>

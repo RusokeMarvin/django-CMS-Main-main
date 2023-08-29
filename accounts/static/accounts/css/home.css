@@ -1,6 +1,7 @@
 
     body{
         margin:0px;
+        background: red;
     }
      .menu-item{
         font-weight: 600;
@@ -342,4 +343,9 @@
           
       }
 
-    
+    @media (max-width: 800px){
+       #cards h2{
+        width: 10%;
+        color: red;
+        }
+    }
